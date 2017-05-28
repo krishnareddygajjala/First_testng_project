@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="krishna Custom testNG Suit " duration-ms="46394" started-at="2017-05-12T11:43:09Z" finished-at="2017-05-12T11:43:55Z">
+    <groups>
+    </groups>
+    <test name="exampletest1" duration-ms="45" started-at="2017-05-12T11:43:09Z" finished-at="2017-05-12T11:43:09Z">
+      <class name="firsttestngpackage.Test1">
+        <test-method status="PASS" signature="testPrintMessage()[pri:0, instance:firsttestngpackage.Test1@28d25987]" name="testPrintMessage" duration-ms="15" started-at="2017-05-12T17:13:09Z" finished-at="2017-05-12T17:13:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrintMessage -->
+      </class> <!-- firsttestngpackage.Test1 -->
+    </test> <!-- exampletest1 -->
+    <test name="exampletest2" duration-ms="10" started-at="2017-05-12T11:43:09Z" finished-at="2017-05-12T11:43:09Z">
+      <class name="firsttestngpackage.Test2">
+        <test-method status="PASS" signature="testSalutationMessage()[pri:0, instance:firsttestngpackage.Test2@1794d431]" name="testSalutationMessage" duration-ms="8" started-at="2017-05-12T17:13:09Z" finished-at="2017-05-12T17:13:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSalutationMessage -->
+      </class> <!-- firsttestngpackage.Test2 -->
+    </test> <!-- exampletest2 -->
+    <test name="TestNGClass" duration-ms="46262" started-at="2017-05-12T11:43:09Z" finished-at="2017-05-12T11:43:55Z">
+      <class name="firsttestngpackage.TestNGClass">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:firsttestngpackage.TestNGClass@4bc222e]" name="launchBrowser" is-config="true" duration-ms="2835" started-at="2017-05-12T17:13:09Z" finished-at="2017-05-12T17:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:firsttestngpackage.TestNGClass@4bc222e]" name="openBrowser" is-config="true" duration-ms="55" started-at="2017-05-12T17:13:12Z" finished-at="2017-05-12T17:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="otherClass()[pri:0, instance:firsttestngpackage.TestNGClass@4bc222e]" name="otherClass" is-config="true" duration-ms="10406" started-at="2017-05-12T17:13:12Z" finished-at="2017-05-12T17:13:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherClass -->
+        <test-method status="PASS" signature="register()[pri:0, instance:firsttestngpackage.TestNGClass@4bc222e]" name="register" duration-ms="313" started-at="2017-05-12T17:13:22Z" finished-at="2017-05-12T17:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:firsttestngpackage.TestNGClass@4bc222e]" name="homePage" is-config="true" duration-ms="1583" started-at="2017-05-12T17:13:23Z" finished-at="2017-05-12T17:13:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="otherClass()[pri:0, instance:firsttestngpackage.TestNGClass@4bc222e]" name="otherClass" is-config="true" duration-ms="12753" started-at="2017-05-12T17:13:24Z" finished-at="2017-05-12T17:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherClass -->
+        <test-method status="PASS" signature="support()[pri:1, instance:firsttestngpackage.TestNGClass@4bc222e]" name="support" duration-ms="277" started-at="2017-05-12T17:13:37Z" finished-at="2017-05-12T17:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- support -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:firsttestngpackage.TestNGClass@4bc222e]" name="homePage" is-config="true" duration-ms="1563" started-at="2017-05-12T17:13:37Z" finished-at="2017-05-12T17:13:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="otherClass()[pri:0, instance:firsttestngpackage.TestNGClass@4bc222e]" name="otherClass" is-config="true" duration-ms="13307" started-at="2017-05-12T17:13:39Z" finished-at="2017-05-12T17:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherClass -->
+        <test-method status="PASS" signature="contact()[pri:2, instance:firsttestngpackage.TestNGClass@4bc222e]" name="contact" duration-ms="279" started-at="2017-05-12T17:13:52Z" finished-at="2017-05-12T17:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:firsttestngpackage.TestNGClass@4bc222e]" name="homePage" is-config="true" duration-ms="1550" started-at="2017-05-12T17:13:52Z" finished-at="2017-05-12T17:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:firsttestngpackage.TestNGClass@4bc222e]" name="quitBrowser" is-config="true" duration-ms="1331" started-at="2017-05-12T17:13:54Z" finished-at="2017-05-12T17:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- firsttestngpackage.TestNGClass -->
+    </test> <!-- TestNGClass -->
+  </suite> <!-- krishna Custom testNG Suit  -->
+</testng-results>
