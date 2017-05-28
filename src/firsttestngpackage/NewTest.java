@@ -10,7 +10,7 @@ import org.testng.annotations.AfterTest;
 public class NewTest
 {
 	WebDriver driver = new FirefoxDriver();
-	String url = "http://www.gmail.com";
+	String url = "http://www.google.com";
 
 	@BeforeTest
 	public void beforeTest()
@@ -20,7 +20,7 @@ public class NewTest
 	@Test
 	public void f()
 	{
-		String expectedTitle = "Gmail";
+		String expectedTitle = "Google";
 		String actualTitle = driver.getTitle();
 		Assert.assertEquals(actualTitle, expectedTitle);
 	}
